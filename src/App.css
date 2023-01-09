@@ -1,7 +1,30 @@
 .App {
   text-align: center;
 }
-
+.showitems .eachitem {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  size: 20px;
+  width: 100%;
+}
+.main-cont {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.688),
+      rgba(0, 0, 0, 0.816)
+    ),
+    url("https://images.pexels.com/photos/5717409/pexels-photo-5717409.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
